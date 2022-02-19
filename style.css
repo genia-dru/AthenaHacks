@@ -20,4 +20,8 @@ body{
   font-size: 30px;
   background-color: white;
   padding: 10px;
+  width: 200px;
+}
+#timer{
+  text-align: center;
 }

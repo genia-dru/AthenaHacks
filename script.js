@@ -1,13 +1,20 @@
-  var minute = 25;
+  var studyTime = true;
+
+  var minute = 24;
   var sec = 60;
   setInterval(function() {
-    document.getElementById("timer").innerHTML = minute + " : " + sec;
     sec--;
     if (sec == 00) {
       minute --;
-      sec = 60;
+      sec = 59;
       if (minute == 0) {
-        minute = 25;
+        minute = 24;
       }
+    }
+    if (sec < 10){
+      document.getElementById("timer").innerHTML = minute + " : 0" + sec;
+    }
+    else{
+      document.getElementById("timer").innerHTML = minute + " : " + sec;
     }
   }, 1000);
