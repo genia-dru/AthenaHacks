@@ -1,1 +1,16 @@
 /*comment lol*/
+body{
+  background-color: #edbba6;
+  text-align: center;
+  font-family: monospace;
+}
+#to-do-list{
+  float: left;
+  background-color: white;
+  padding: 0px 25px 25px 25px;
+  width: 250px;
+  text-align: left;
+}
+.clear{
+  clear: both;
+}
