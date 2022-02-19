@@ -14,3 +14,10 @@ body{
 .clear{
   clear: both;
 }
+
+#timer-wrapper{
+  float:right;
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+}
