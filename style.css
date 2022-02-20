@@ -109,6 +109,5 @@ body{
   display: inline-block;
   justify-content: space-between;
   position: fixed;
-  left: 0;
   bottom: 0;
 }
