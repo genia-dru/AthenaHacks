@@ -14,7 +14,7 @@ body{
   padding: 0px 25px 25px 25px;
   width: 250px;
   text-align: left;
-  color: rgba(66, 52, 47);
+  color: rgb(66, 52, 47);
 }
 .clear{
   clear: both;
@@ -102,7 +102,7 @@ body{
   width: 16.66%;
   background-color: #8c665a;
   border: none;
-  color: rgba(66, 52, 47);
+  color: rgb(66, 52, 47);
   text-align: center;
   font-family: 'Courier New', monospace;
   line-height: 20px;
@@ -115,7 +115,7 @@ body{
 }
 .button2:hover {
   background-color: #42342f;
-  color: rgba(140, 102, 90);
+  color: rgb(140, 102, 90);
 }
 #footer {
   width: 100%;
