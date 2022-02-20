@@ -82,10 +82,6 @@ body{
 #start-button p {
   text-align: center;
 }
-#footer {
-  position: fixed;
-  bottom: 10;
-}
 .button { /*make round plus button*/
  border: none;
  color: #42342f;
@@ -107,6 +103,10 @@ body{
 .buttonAdd:hover {
  background-color: #42342f;
  color: #8c665a;
+}
+#footer {
+  position: fixed;
+  bottom: 10;
 }
 .sound1 {
  background-color: #8c665a;
