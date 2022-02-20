@@ -95,6 +95,7 @@ body{
   color: #8c665a;
 }
 .button2 { /*make sound buttons*/
+  width: 16.66%;
   background-color: #8c665a;
   border: none;
   color: #42342f;
@@ -113,6 +114,7 @@ body{
   color: #8c665a;
 }
 #footer {
+  width:100%;
   display: flex;
   justify-content: space-between;
   position: fixed;
