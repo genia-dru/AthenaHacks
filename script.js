@@ -2,6 +2,12 @@ var minute = 24;
 var sec = 60;
 var switched = true;
 
+var audio = document.getElementById("myAudio");
+  
+function playSound() {
+    audio.play();
+}
+
 function timer(){
 setInterval(function() {
       sec--;
