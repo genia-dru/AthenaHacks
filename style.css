@@ -122,4 +122,5 @@ body{
   justify-content: space-between;
   position: absolute;
   bottom: 0;
+  opacity: 0.5;
 }
