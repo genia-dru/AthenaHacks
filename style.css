@@ -15,6 +15,13 @@ body{
   width: 250px;
   text-align: left;
 }
+#sounds-list{
+  float: left;
+  background-color: white;
+  padding: 0px 25px 25px 25px;
+  width: 250px;
+  text-align: left;
+}
 .clear{
   clear: both;
 }
