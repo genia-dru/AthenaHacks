@@ -1,8 +1,12 @@
 /*comment lol*/
 body{
   background-color: #edbba6;
-  text-align: center;
   font-family: monospace;
+}
+#content{
+  background-color: pink;
+  width: 90%;
+  margin: 0 auto;
 }
 #to-do-list{
   float: left;
@@ -14,13 +18,95 @@ body{
 .clear{
   clear: both;
 }
+#title{
+  color: white;
+  display: inline;
+  width: 50px;
+}
+#title h1{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 100px;
+}
 #timer-wrapper{
-  float:right;
-  font-size: 30px;
+  font-size: 25px;
   background-color: white;
-  padding: 10px;
+  padding: 5px;
   width: 200px;
+  float: right;
+  height: 40px;
+  border-radius: 80px;
+  margin: 25px;
+  display: inline-block;
+  line-height: 40px;
 }
 #timer{
   text-align: center;
+  margin: 0 auto;
+}
+#nav-bar{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+#sound-button{
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  display: inline-block;
+}
+#sound-button p {
+  text-align: center;
+}
+#theme-button{
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  display: inline-block;
+}
+#theme-button p {
+  text-align: center;
+}
+#start-button{
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  display: inline-block;
+}
+#start-button p {
+  text-align: center;
+}
+.button { /*make round plus button*/
+ border: none;
+ color: #42342f;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 40px;
+ font-size: 40px;
+ font-weight: bold;
+ cursor: pointer;
+ padding: 5px;
+ float: left;
+}
+.buttonAdd {
+ background-color: #8c665a;
+
+}
+.buttonAdd:hover {
+ background-color: #42342f;
+ color: #8c665a;
 }
