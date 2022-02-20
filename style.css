@@ -50,19 +50,6 @@ body{
   height: 100px;
   width: 100%;
 }
-#sound-button{
-  width: 90px;
-  height: 40px;
-  background-color: white;
-  border-radius: 80px;
-  float: left;
-  margin: 25px;
-  padding: 5px;
-  display: inline-block;
-}
-#sound-button p {
-  text-align: center;
-}
 #start-button{
   width: 150px;
   height: 40px;
