@@ -4,7 +4,7 @@ body{
   font-family: monospace;
 }
 #content{
-  background-color: green;
+  background-color: pink;
   width: 90%;
   margin: 0 auto;
 }
@@ -62,19 +62,6 @@ body{
 #sound-button p {
   text-align: center;
 }
-#theme-button{
-  width: 90px;
-  height: 40px;
-  background-color: white;
-  border-radius: 80px;
-  float: left;
-  margin: 25px;
-  padding: 5px;
-  display: inline-block;
-}
-#theme-button p {
-  text-align: center;
-}
 #start-button{
   width: 90px;
   height: 40px;
@@ -87,4 +74,26 @@ body{
 }
 #start-button p {
   text-align: center;
+}
+.button { /*make round plus button*/
+ border: none;
+ color: #42342f;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 40px;
+ font-size: 40px;
+ font-weight: bold;
+ cursor: pointer;
+ padding: 5px;
+ float: left;
+}
+.buttonAdd {
+ background-color: #8c665a;
+
+}
+.buttonAdd:hover {
+ background-color: #42342f;
+ color: #8c665a;
 }
