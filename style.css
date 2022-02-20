@@ -14,7 +14,7 @@ body{
 .clear{
   clear: both;
 }
-.button { /*make round plus button*/
+#button { /*make round plus button*/
   border: none;
   color: #42342f;
   width: 30px;
@@ -27,10 +27,10 @@ body{
   margin: 25px;
   cursor: pointer;
 }
-.buttonAdd {
+#buttonAdd {
   background-color: #8c665a;
 }
-.buttonAdd:hover {
+#buttonAdd:hover {
   background-color: #42342f;
   color: #8c665a;
 }
