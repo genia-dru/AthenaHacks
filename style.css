@@ -82,6 +82,9 @@ body{
 #start-button p {
   text-align: center;
 }
+#footer {
+  position: fixed;
+}
 .button { /*make round plus button*/
  border: none;
  color: #42342f;
