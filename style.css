@@ -87,7 +87,7 @@ body{
 }
 .button2 { /*make sound buttons*/
   width: 16.66%;
-  background-color: rgba(140, 102, 90, 1.0);
+  background-color: rgba(140, 102, 90, 0.5);
   border: none;
   color: rgba(66, 52, 47, 1.0);
   text-align: center;
@@ -101,7 +101,7 @@ body{
   justify-content: space-between;
 }
 .button2:hover {
-  background-color: rgba(66, 52, 47, 1.0);
+  background-color: rgba(66, 52, 47, 0.5);
   color: rgba(140, 102, 90, 1.0);
 }
 #footer {
