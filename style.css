@@ -84,6 +84,7 @@ body{
 }
 #footer {
   position: fixed;
+  bottom: 10;
 }
 .button { /*make round plus button*/
  border: none;
