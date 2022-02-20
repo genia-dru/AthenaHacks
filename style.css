@@ -2,9 +2,10 @@
 body{
   background-color: #edbba6;
   font-family: monospace;
+  background-image: url("cat_study_app.png");
+  background-size: cover;
 }
 #content{
-  background-color: pink;
   width: 90%;
   margin: 0 auto;
 }
@@ -63,7 +64,7 @@ body{
   text-align: center;
 }
 #start-button{
-  width: 90px;
+  width: 150px;
   height: 40px;
   background-color: white;
   border-radius: 80px;
