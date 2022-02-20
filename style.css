@@ -46,10 +46,9 @@ body{
   margin: 0 auto;
 }
 #nav-bar{
-  background-color: #42342f;
+  background-color: rgba(66, 52, 47, 0.5);
   height: 100px;
   width: 100%;
-  opacity: 0.5;
 }
 #sound-button{
   width: 90px;
