@@ -82,7 +82,7 @@ body{
 #start-button p {
   text-align: center;
 }
-.button { /*make round plus button*/
+.button1 { /*make round plus button*/
  border: none;
  color: #42342f;
  width: 40px;
@@ -94,6 +94,17 @@ body{
  font-weight: bold;
  cursor: pointer;
  padding: 5px;
+ float: left;
+}
+.button2 { /*make sound buttons*/
+ border: none;
+ color: #42342f;
+ text-align: center;
+ line-height: 40px;
+ font-size: 40px;
+ font-weight: bold;
+ cursor: pointer;
+ padding: 10px;
  float: left;
 }
 .buttonAdd {
