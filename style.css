@@ -15,7 +15,7 @@ body{
   width: 250px;
   text-align: left;
   opacity: 0.3;
-  color: rgba(66, 52, 47, 1);
+  color: rgba(66, 52, 47, .8);
 }
 .clear{
   clear: both;
