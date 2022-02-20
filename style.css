@@ -76,25 +76,52 @@ body{
 #start-button p {
   text-align: center;
 }
-.button { /*make round plus button*/
- border: none;
- color: #42342f;
- width: 40px;
- height: 40px;
- border-radius: 50%;
- text-align: center;
- line-height: 40px;
- font-size: 40px;
- font-weight: bold;
- cursor: pointer;
- padding: 5px;
- float: left;
+.button1 { /*make round plus button*/
+  background-color: #8c665a;
+  border: none;
+  color: #42342f;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  float: left;
 }
-.buttonAdd {
- background-color: #8c665a;
-
+.button1:hover {
+  background-color: #42342f;
+  color: #8c665a;
 }
-.buttonAdd:hover {
- background-color: #42342f;
- color: #8c665a;
+.button2 { /*make sound buttons*/
+  background-color: #8c665a;
+  border: none;
+  color: #42342f;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  line-height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+.button2:hover {
+  background-color: #42342f;
+  color: #8c665a;
+}
+.sound-buttons button2{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 10;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 10;
 }
