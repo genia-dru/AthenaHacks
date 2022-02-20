@@ -112,6 +112,12 @@ body{
   background-color: #42342f;
   color: #8c665a;
 }
+.sound-buttons button2{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 10;
+}
 #footer {
   display: flex;
   justify-content: space-between;
