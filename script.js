@@ -1,6 +1,12 @@
 var minute = 24;
 var sec = 60;
 
+var audio = document.getElementById("myAudio");
+  
+  function playSound() {
+    audio.play();
+  }
+
 setInterval(function() {
       sec--;
       if (sec == 00) {
