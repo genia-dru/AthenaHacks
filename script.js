@@ -1,8 +1,6 @@
 var minute = 24;
-var sec = 60;
+var sec = 59;
 var switched = true;
-
-var audio = document.getElementById("myAudio");
 //audios
 var audio1 = new Audio('waterdrops.wav');
 var audio2 = new Audio('lightrain.mp3');
@@ -14,7 +12,7 @@ var audio6 = new Audio('frogs.wav');
 function timer(){
 setInterval(function() {
       sec--;
-      if (sec == 00 && minute > 1) {
+      if (sec == 00 && minute >= 1) {
         minute --;
         sec = 59;
       }
@@ -22,13 +20,13 @@ setInterval(function() {
         switched = !switched;
         if(switched){
           minute = 24;
-          sec = 60;
+          sec = 59;
           document.getElementById("start").innerHTML = "Studying...";
 
         }
         else {
           minute = 4;
-          sec = 60;
+          sec = 59;
           document.getElementById("start").innerHTML = "Break Time...";
         }
       }
@@ -43,9 +41,20 @@ setInterval(function() {
   //run
   timer();
 
+  var isPlaying = false;
+
   function play(a){
-  a.play()
+    if(!isPlaying){
+      a.loop = true;
+      a.play();
+      isPlaying = true;
+    }
+    else if(isPlaying){
+      a.pause();
+      isPlaying=false;
+    }
   }
+
 document.getElementById("sound1").addEventListener("click", function(){play(audio1)}, false);
 document.getElementById("sound2").addEventListener("click", function(){play(audio2)}, false);
 document.getElementById("sound3").addEventListener("click", function(){play(audio3)}, false);

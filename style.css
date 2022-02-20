@@ -97,6 +97,7 @@ body{
   font-size: 20px;
   padding: 20px 58px;
   display: inline-block;
+  cursor: pointer;
   float: left;
 }
 .button2:hover {
