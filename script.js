@@ -3,9 +3,9 @@ var sec = 60;
 
 var audio = document.getElementById("myAudio");
   
-  function playSound() {
+function playSound() {
     audio.play();
-  }
+}
 
 setInterval(function() {
       sec--;
