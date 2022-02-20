@@ -31,7 +31,7 @@ body{
 }
 #timer-wrapper{
   font-size: 25px;
-  background-color: white;
+  background-color: rgba(184, 144, 75, 0.8);
   padding: 5px;
   width: 200px;
   float: right;
@@ -53,7 +53,7 @@ body{
 #start-button{
   width: 150px;
   height: 40px;
-  background-color: white;
+  background-color: rgba(184, 144, 75, 0.8);
   border-radius: 80px;
   float: left;
   margin: 25px;
