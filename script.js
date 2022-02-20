@@ -1,13 +1,26 @@
 var minute = 24;
 var sec = 60;
+var switched = true;
 
+function timer(){
 setInterval(function() {
       sec--;
-      if (sec == 00) {
+      if (sec == 00 && minute > 1) {
         minute --;
         sec = 59;
-        if (minute == 0) {
+      }
+      if (minute == 0 && sec == 0) {
+        switched = !switched;
+        if(switched){
           minute = 24;
+          sec = 60;
+          document.getElementById("start").innerHTML = "Studying...";
+
+        }
+        else {
+          minute = 4;
+          sec = 60;
+          document.getElementById("start").innerHTML = "Break Time...";
         }
       }
       if (sec < 10){
@@ -16,7 +29,7 @@ setInterval(function() {
       else{
         document.getElementById("timer").innerHTML = minute + " : " + sec;
       }
-      if(sec == 0 && minute == 0){
-        studyTime = false;
-      }
     }, 1000);
+  }
+  //run
+  timer();
