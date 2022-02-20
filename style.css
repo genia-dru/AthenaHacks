@@ -10,10 +10,11 @@ body{
 }
 #to-do-list{
   float: left;
-  background-color: white;
+  background-color: #376620;
   padding: 0px 25px 25px 25px;
   width: 250px;
   text-align: left;
+  opacity: 0.3;
 }
 .clear{
   clear: both;
