@@ -120,8 +120,8 @@ body{
 #footer {
   width: 100%;
   justify-content: space-between;
-  position: absolute;
-  text-align: center;
+  position: fixed;
+  left: 0;
   bottom: 0;
   opacity: 0.5;
 }
