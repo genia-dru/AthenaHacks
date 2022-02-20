@@ -14,7 +14,7 @@ body{
   padding: 0px 25px 25px 25px;
   width: 250px;
   text-align: left;
-  color: black;
+  color: rgba(66, 52, 47, 0.9);
 }
 .clear{
   clear: both;
