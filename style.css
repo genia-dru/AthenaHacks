@@ -95,10 +95,11 @@ body{
   color: #8c665a;
 }
 .button2 { /*make sound buttons*/
-  background-color: #8c665a
+  background-color: #8c665a;
   border: none;
   color: #42342f;
   text-align: center;
+  font-family: 'Courier New', monospace;
   line-height: 20px;
   font-size: 20px;
   cursor: pointer;
