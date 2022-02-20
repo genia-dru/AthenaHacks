@@ -92,6 +92,7 @@ body{
   cursor: pointer;
   padding: 5px;
   float: left;
+  opacity: 0.5;
 }
 .button1:hover {
   background-color: #42342f;
