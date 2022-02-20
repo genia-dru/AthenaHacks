@@ -106,6 +106,7 @@ body{
 }
 #footer {
   width: 100%;
+  display: inline-block;
   justify-content: space-between;
   position: fixed;
   left: 0;
